@@ -86,6 +86,6 @@ So this little library builds the complete JSON object and generates a single ev
 
 ### Motivation
 
-Theres not much resources in this topic so i build a simple solution for a simple problem.
+Theres not much resources on this topic so i build a simple solution for a simple problem.
 
 This is a work on progress.
