@@ -11,7 +11,7 @@ const streamClient = (options, callback) => {
 	return parser
 }
 
-export default {
+export {
 	streamParser,
 	streamClient
 }

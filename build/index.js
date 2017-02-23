@@ -3,6 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
+exports.streamClient = exports.streamParser = undefined;
 
 var _parser = require('./lib/parser');
 
@@ -22,8 +23,6 @@ var streamClient = function streamClient(options, callback) {
 	return parser;
 };
 
-exports.default = {
-	streamParser: _parser2.default,
-	streamClient: streamClient
-};
+exports.streamParser = _parser2.default;
+exports.streamClient = streamClient;
 //# sourceMappingURL=index.js.map
